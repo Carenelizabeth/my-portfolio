@@ -49,6 +49,112 @@ table {
  /*begin custom CSS*/
  *{box-sizing: border-box}
 
- body{
-     background-color: #CCCCFF;
+body{
+     background-color: #C4D8ED;
+}
+
+
+header{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px gray;
+}
+
+.title{
+    z-index: 2;
+}
+
+.left-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 302px;
+    width: 251px;
+    background-image: url('./assets/small-left.png');
+    background-repeat: no-repeat;
+}
+
+.right-image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 200px;
+    width: 250px;
+    background-image: url('./assets/small-right.png');
+    background-repeat: no-repeat;
+}
+
+.divider{
+    height: 50px;
+    width: 100%;
+    background-color: #202F3D
+}
+
+section{
+    min-height: 200px;
+    position: relative;
+}
+
+section:nth-child(even){
+    background-color: #E1F1FF
+}
+
+@media only screen and (max-height: 600px){
+    height: 100%
+}
+
+ @media only screen and (min-width: 400px){
+    header{
+        height: 500px;
+    }
+
+    .left-image{
+        top: 50px;
+        left: 50px;
+    }
+
+    .right-image{
+        bottom: 50px;
+        right: 50px;
+    }
+ }
+
+ @media only screen and (min-width: 900px){
+    header{
+        height: 630px;
+    }
+
+    .left-image{
+        background-image: url('./assets/medium-left.png');
+        height: 500px;
+        width: 500px;
+    }
+
+    .right-image{
+        background-image: url('./assets/medium-right.png');
+        height: 501px;
+        width: 550px;
+    }
+ }
+
+ @media only screen and (min-width: 1400px){
+     header{
+         height: 700px;
+     }
+
+     .left-image{
+        height: 611px;
+        width: 751px;
+        background-image: url('./assets/large-left.png');
+     }
+
+     .right-image{
+         height: 618px;
+         width: 751px;
+         background-image: url('./assets/large-right.png');
+     }
  }
