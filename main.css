@@ -62,6 +62,7 @@ p{
 h1{
     font-size: 32px;
     text-align: center;
+    font-family: "blakely", sans-serif
 }
 
 h2{
@@ -258,13 +259,13 @@ button{
         flex-direction: row-reverse;
     }
 
-    .subsection{
+    .app-section{
         margin: 50px;
         padding: 50px 25px 25px 25px;
     }
 
     .app-description{
-        width: 600px;
+        width: 500px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -283,9 +284,6 @@ button{
         height: 186px;
     }
 
-    .contact-buttons{
-        margin-left: 0;
-    }
  }
 
  @media only screen and (min-width: 1000px){
