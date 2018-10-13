@@ -123,7 +123,9 @@ section{
 }
 
 section:nth-child(even){
-    background-color: #E1F1FF
+    background-color: #E1F1FF;
+    border-top: solid 4px #202F3D;
+    border-bottom: solid 4px #202F3D;
 }
 
 .subsection{
@@ -163,6 +165,23 @@ button{
     margin-bottom: 25px;
 }
 
+.email{
+    background-image: url('./assets/email.png');
+}
+
+.github{
+    background-image: url('./assets/github.png');
+}
+
+.linkedin{
+    background-image: url('./assets/linkedin.png');
+}
+
+.contact{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .profile-body{
     display: flex;
     flex-direction: row-reverse;
@@ -172,6 +191,31 @@ button{
     margin: 25px;
 }
 
+.app-section{
+    flex-direction: column-reverse;
+    margin: 25px;
+}
+
+.app-image{
+    margin-bottom: 25px;
+}
+
+.app-description{
+    display: flex;
+    flex-direction: column;
+}
+
+.app-stack{
+    align-self: flex-end;
+}
+
+.money-jars-stack{
+    width: 250px;
+}
+
+.something-new-stack{
+    width: 150px;
+}
 
  @media only screen and (min-width: 500px){
     header{
@@ -204,6 +248,43 @@ button{
         background-image: url('./assets/medium-right.png');
         height: 501px;
         width: 550px;
+    }
+
+    .money-jars{
+        flex-direction: row;
+    }
+
+    .something-new{
+        flex-direction: row-reverse;
+    }
+
+    .subsection{
+        margin: 50px;
+        padding: 50px 25px 25px 25px;
+    }
+
+    .app-description{
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .something-new-image{
+        height: 300px;
+        width: 320px;
+        margin-top: -75px;
+        margin-right: 50px;
+    }
+
+    .money-jars-image{
+        margin-left: 50px;
+        width: 385px;
+        height: 186px;
+    }
+
+    .contact-buttons{
+        margin-left: 0;
     }
  }
 
