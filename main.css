@@ -57,26 +57,36 @@ p{
     margin-top: 10px;
     margin-bottom: 10px;
     line-height: 1.2em;
+    font-family: "hermes-fb", sans-serif;
+    font-weight: 300;
 }
 
 h1{
-    font-size: 32px;
+    font-size: 40px;
     text-align: center;
-    font-family: "blakely", sans-serif
+    font-family: "blakely", sans-serif;
+    letter-spacing: 2.5px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
 }
 
 h2{
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
-}
-
-.title{
-    padding-bottom: 70px;
+    font-family: "hermes-fb", sans-serif;
 }
 
 h3{
     font-weight: bold;
     font-size: 24px;
+    font-family: "blakely", sans-serif;
+}
+
+a{
+    font-family: "hermes-fb", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
 }
 
 header{
@@ -85,11 +95,11 @@ header{
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
     border: solid 2px gray;
 }
 
 .title{
+    margin-top: 125px;
     z-index: 2;
 }
 
@@ -134,6 +144,10 @@ section:nth-child(even){
     display: flex;
 }
 
+.about-me{
+    border-top: solid 0;
+}
+
 .profile-pic{
     position: absolute;
     top: -25px;
@@ -170,6 +184,10 @@ button{
     background-image: url('./assets/email.png');
 }
 
+.email:hover{
+    background-image: url('./assets/email-active.png');
+}
+
 .github{
     background-image: url('./assets/github.png');
 }
@@ -185,7 +203,7 @@ button{
 
 .profile-body{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
 }
 
 .profile-info{
@@ -218,7 +236,7 @@ button{
     width: 150px;
 }
 
- @media only screen and (min-width: 500px){
+@media only screen and (min-width: 500px){
     header{
         height: 500px;
     }
@@ -232,6 +250,33 @@ button{
         bottom: 50px;
         right: 50px;
     }
+
+    .title{
+        margin-top: 175px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    .profile-body{
+        flex-direction: row-reverse;
+    }
+
+    .something-new-image{
+        height: 500px;
+        width: 532px;
+        margin-top: -75px;
+        margin-right: 50px;
+    }
+
+    .money-jars-image{
+        margin-left: 50px;
+        width: 500px;
+        height: 242px;
+        align-self: flex-end;
+    }
+
  }
 
  @media only screen and (min-width: 900px){
@@ -265,25 +310,33 @@ button{
     }
 
     .app-description{
-        width: 500px;
+        max-width: 500px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        padding-bottom: 25px;
     }
 
-    .something-new-image{
-        height: 300px;
-        width: 320px;
-        margin-top: -75px;
-        margin-right: 50px;
+
+    .title{
+        margin-top: 250px;
+    }
+
+    h1{
+        font-size: 72px;
+    }
+    
+    h2{
+        font-size: 22px;
+    }
+
+    .something-new-stack{
+        padding-bottom: 50px;
     }
 
     .money-jars-image{
-        margin-left: 50px;
-        width: 385px;
-        height: 186px;
+        align-self: flex-start;
     }
-
  }
 
  @media only screen and (min-width: 1000px){
