@@ -85,8 +85,15 @@ h3{
 a{
     font-family: "hermes-fb", sans-serif;
     font-weight: 400;
-    font-style: italic;
     text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: #4b77a0;
 }
 
 header{
@@ -192,8 +199,16 @@ button{
     background-image: url('./assets/github.png');
 }
 
+.github:hover{
+    background-image: url('./assets/github-active.png');
+}
+
 .linkedin{
     background-image: url('./assets/linkedin.png');
+}
+
+.linkedin:hover{
+    background-image: url('./assets/linkedin-active.png');
 }
 
 .contact{
@@ -234,6 +249,12 @@ button{
 
 .something-new-stack{
     width: 150px;
+}
+
+footer{
+    height: 50px;
+    background-color:#202F3D;
+    width: 100%;
 }
 
 @media only screen and (min-width: 500px){
@@ -304,6 +325,10 @@ button{
         flex-direction: row-reverse;
     }
 
+    .family-reunion{
+        flex-direction: row;
+    }
+
     .app-section{
         margin: 50px;
         padding: 50px 25px 25px 25px;
@@ -336,6 +361,13 @@ button{
 
     .money-jars-image{
         align-self: flex-start;
+    }
+
+    .family-reunion-image{
+        margin-left: 50px;
+        margin-top: -60px;
+        height: 369px;
+        width: 519px;
     }
  }
 
