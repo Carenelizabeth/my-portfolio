@@ -366,7 +366,6 @@ footer{
 
     .family-reunion-image{
         margin-left: 50px;
-        margin-top: -60px;
         height: 369px;
         width: 519px;
     }
@@ -394,5 +393,6 @@ footer{
          height: 618px;
          width: 751px;
          background-image: url('./assets/large-right.png');
+         right: 0;
      }
  }
