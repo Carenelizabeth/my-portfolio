@@ -4,7 +4,7 @@ function handleButtons(){
     $('.email').click(e => {
         e.preventDefault();
         console.log('email clicked')
-        window.location.href="mailto:cejkeyes@gmail.com"
+        window.open('mailto:Caren Keyes<cejkeye@gmail.com>')
     });
     $('.github').click(e => {
         e.preventDefault();
