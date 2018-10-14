@@ -143,8 +143,8 @@ section{
 
 section:nth-child(even){
     background-color: #E1F1FF;
-    border-top: solid 4px #202F3D;
-    border-bottom: solid 4px #202F3D;
+    border-top: solid 1px #202F3D;
+    border-bottom: solid 1px #202F3D;
 }
 
 .subsection{
