@@ -245,7 +245,7 @@ button{
 }
 
 .money-jars-stack{
-    width: 250px;
+    width: 275px;
 }
 
 .something-new-stack{
@@ -257,6 +257,13 @@ footer{
     background-color:#202F3D;
     width: 100%;
 }
+
+@media only screen and (min-width: 350px){
+    .money-jars-stack{
+        width:300px;
+    }
+}
+
 
 @media only screen and (min-width: 500px){
     header{
