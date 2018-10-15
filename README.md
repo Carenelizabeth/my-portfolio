@@ -14,7 +14,7 @@ You can see the uniform but optomized look across the different devices
 ![Tablet](/assets/Portfolio-tablets.PNG)
 
 
-![Phone](/assets/Portfolio1phone.PNG)
+![Phone](/assets/Portfolio-phone.PNG)
 
 ## Technologies
 
