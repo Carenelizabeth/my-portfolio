@@ -113,9 +113,14 @@ footer{
 
 footer a{
     color: white;
+    margin-left: 5px;
 }
 
 footer a:visited{
+    color: white;
+}
+
+footer p{
     color: white;
 }
 
