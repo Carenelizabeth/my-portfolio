@@ -9,8 +9,12 @@ After spending most of my time on full-stack projects, I wanted to take the oppo
 ## Screenshots
 You can see the uniform but optomized look across the different devices
 ![Large Monitor](/assets/Portfolio-full.PNG)
+
+
 ![Tablet](/assets/Portfolio-tablets.PNG)
-![Phone](/assets/Portfolio=phone.PNG)
+
+
+![Phone](/assets/Portfolio1phone.PNG)
 
 ## Technologies
 
