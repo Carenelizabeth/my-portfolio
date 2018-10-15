@@ -79,7 +79,7 @@ h2{
 h3{
     font-weight: bold;
     font-size: 24px;
-    font-family: "blakely", sans-serif;
+    font-family: "hermes-fb", sans-serif;
 }
 
 a{
@@ -104,6 +104,20 @@ header{
     display: flex;
     justify-content: center;
     border: solid 2px gray;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:visited{
+    color: white;
 }
 
 .title{
@@ -263,7 +277,6 @@ footer{
         width:300px;
     }
 }
-
 
 @media only screen and (min-width: 500px){
     header{
