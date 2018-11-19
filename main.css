@@ -270,6 +270,10 @@ button{
     width: 150px;
 }
 
+.artist-connect-stack{
+    width: 200px;
+}
+
 footer{
     height: 50px;
     background-color:#202F3D;
@@ -321,6 +325,18 @@ footer{
         width: 500px;
         height: 242px;
         align-self: flex-end;
+        margin-top: 50px;
+    }
+
+    .artist-connect-image{
+        width: 500px;
+        height: 290px;
+        margin-right: 50px;
+        margin-top: 25px;
+    }
+
+    .artist-connect{
+        padding-bottom: 0;
     }
 
     footer{
@@ -344,6 +360,10 @@ footer{
         background-image: url('./assets/medium-right.png');
         height: 501px;
         width: 550px;
+    }
+
+    .artist-connect{
+        flex-direction: row-reverse;
     }
 
     .money-jars{
