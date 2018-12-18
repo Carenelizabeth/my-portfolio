@@ -50,7 +50,7 @@ table {
  *{box-sizing: border-box}
 
 body{
-     background-color: #C4D8ED;
+     background-color: #DEE7ED;
 }
 
 p{
@@ -66,20 +66,23 @@ h1{
     text-align: center;
     font-family: "blakely", sans-serif;
     letter-spacing: 2.5px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #385623;
     margin-bottom: 10px;
+    color: #385623
 }
 
 h2{
     font-size: 16px;
     text-align: center;
     font-family: "hermes-fb", sans-serif;
+    color: #385623;
 }
 
 h3{
     font-weight: bold;
     font-size: 24px;
     font-family: "blakely", sans-serif;
+    color: #385623;
 }
 
 a{
@@ -134,7 +137,7 @@ section{
 }
 
 section:nth-child(even){
-    background-color: #E1F1FF;
+    background-color: #FFF;
     border-top: solid 4px #202F3D;
     border-bottom: solid 4px #202F3D;
 }
