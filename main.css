@@ -88,8 +88,16 @@ h3{
 a{
     font-family: "hermes-fb", sans-serif;
     font-weight: 400;
-    font-style: italic;
     text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: #4b77a0;
 }
 
 header{
@@ -98,7 +106,25 @@ header{
     position: relative;
     display: flex;
     justify-content: center;
-    border: solid 2px gray;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+footer a{
+    color: white;
+    margin-left: 5px;
+}
+
+footer a:visited{
+    color: white;
+}
+
+footer p{
+    color: white;
 }
 
 .title{
@@ -195,8 +221,16 @@ button{
     background-image: url('./assets/github.png');
 }
 
+.github:hover{
+    background-image: url('./assets/github-active.png');
+}
+
 .linkedin{
     background-image: url('./assets/linkedin.png');
+}
+
+.linkedin:hover{
+    background-image: url('./assets/linkedin-active.png');
 }
 
 .contact{
@@ -232,11 +266,27 @@ button{
 }
 
 .money-jars-stack{
-    width: 250px;
+    width: 275px;
 }
 
 .something-new-stack{
     width: 150px;
+}
+
+.artist-connect-stack{
+    width: 200px;
+}
+
+footer{
+    height: 50px;
+    background-color:#202F3D;
+    width: 100%;
+}
+
+@media only screen and (min-width: 350px){
+    .money-jars-stack{
+        width:300px;
+    }
 }
 
 @media only screen and (min-width: 500px){
@@ -278,6 +328,22 @@ button{
         width: 500px;
         height: 242px;
         align-self: flex-end;
+        margin-top: 50px;
+    }
+
+    .artist-connect-image{
+        width: 500px;
+        height: 290px;
+        margin-right: 50px;
+        margin-top: 25px;
+    }
+
+    .artist-connect{
+        padding-bottom: 0;
+    }
+
+    footer{
+        padding-left: 50px;
     }
 
  }
@@ -299,6 +365,10 @@ button{
         width: 550px;
     }
 
+    .artist-connect{
+        flex-direction: row-reverse;
+    }
+
     .money-jars{
         flex-direction: row;
     }
@@ -307,13 +377,17 @@ button{
         flex-direction: row-reverse;
     }
 
+    .family-reunion{
+        flex-direction: row;
+    }
+
     .app-section{
         margin: 50px;
         padding: 50px 25px 25px 25px;
     }
 
     .app-description{
-        max-width: 500px;
+        max-width: 400px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -340,6 +414,12 @@ button{
     .money-jars-image{
         align-self: flex-start;
     }
+
+    .family-reunion-image{
+        margin-left: 50px;
+        height: 369px;
+        width: 519px;
+    }
  }
 
  @media only screen and (min-width: 1000px){
@@ -364,5 +444,6 @@ button{
          height: 618px;
          width: 751px;
          background-image: url('./assets/large-right.png');
+         right:0;
      }
  }
