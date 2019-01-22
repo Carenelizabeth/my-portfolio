@@ -314,7 +314,7 @@ footer{
     background-position: left;
     background-repeat: no-repeat;
     background-size: 1100%;
-    animation: flutter-wings .5s steps(10) 16;
+    animation: flutter-wings .5s steps(10) 10;
 }
 
 @keyframes flutter-wings{
